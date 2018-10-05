@@ -18,12 +18,14 @@ SummarizedExperiment is a container of
 - colData, which contain sample descriptions
 - assays, which contain one or more assays
 - metadata, which contain project information
-In this exercise, you are given a SummarizedExperiment 
+
+In this exercise, you are given a SummarizedExperiment object se
 
 `@instructions`
-- Instruction 1
-- Instruction 2
-- Instruction 3
+- View rowData
+- View colData
+- View assays
+- View metaData
 
 `@hint`
 - Here is the hint for this setup problem. 
@@ -36,7 +38,7 @@ In this exercise, you are given a SummarizedExperiment
 # Load the SummarizedExperiment package
 library(SummarizedExperiment)
 # Load the airway data
-data(airway, package="airway")
+# data(airway, package="airway")
 ```
 
 `@sample_code`
