@@ -17,6 +17,8 @@ SummarizedExperiment is a container of
 - rowData, which contain features e.g. genes, exons, transcripts
 - colData, which contain sample descriptions
 - assays, which contain one or more assays
+- metadata, which contain project information
+In this exercise, you are given a SummarizedExperiment 
 
 `@instructions`
 - Instruction 1
@@ -31,20 +33,15 @@ SummarizedExperiment is a container of
 
 `@pre_exercise_code`
 ```{r}
-# Load datasets and packages here.
+# Load the SummarizedExperiment package
+library(SummarizedExperiment)
+# Load the airway data
+data(airway, package="airway")
 ```
 
 `@sample_code`
 ```{r}
-# Your
-# sample
-# code
-# should
-# be
-# ideally
-# 10 lines or less,
-# with a max
-# of 16 lines.
+# 
 ```
 
 `@solution`
