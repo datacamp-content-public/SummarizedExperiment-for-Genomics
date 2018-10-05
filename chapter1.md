@@ -13,8 +13,11 @@ xp: 100
 skills: 1
 ```
 
-This is the Context. It should help provide students with the background information needed.
-The Instructions that follow should be in bullet point form with clear guidance for what is expected.
+**Anatomy of SummarizedExperiment**
+SummarizedExperiment is a container of
+- rowData, which contain features e.g. genes, exons, transcripts
+- colData, which contain sample descriptions
+- assays, which contain one or more assays
 
 `@instructions`
 - Instruction 1
