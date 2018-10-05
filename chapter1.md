@@ -3,7 +3,7 @@ title: 'Template Chapter 1'
 description: 'This is a template chapter.'
 ---
 
-## An exercise title written in sentence case
+## Anatomy of SummarizedExperiment
 
 ```yaml
 type: NormalExercise
@@ -13,7 +13,6 @@ xp: 100
 skills: 1
 ```
 
-**Anatomy of SummarizedExperiment**
 SummarizedExperiment is a container of
 - rowData, which contain features e.g. genes, exons, transcripts
 - colData, which contain sample descriptions
